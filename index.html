@@ -9,30 +9,32 @@
 </head>
 <body>
   <div class="container">
-    <div class="calc">
+    <div class="calculator">
       <input type="text" id="screen" placeholder="0">
-      <button>C</button>
-      <button>DEL</button>
-      <button>%</button>
-      <button>/</button>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>*</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>+</button>
-      <button>.</button>
-      <button>0</button>
-      <button>=</button>
+      <button onclick="calc()">C</button>
+      <button onclick="calc()">DEL</button>
+      <button onclick="calc('%')">%</button>
+      <button onclick="calc('/')">/</button>
+      <button onclick="calc(7)">7</button>
+      <button onclick="calc(8)">8</button>
+      <button onclick="calc(9)">9</button>
+      <button onclick="calc('*')">*</button>
+      <button onclick="calc(4)">4</button>
+      <button onclick="calc(5)">5</button>
+      <button onclick="calc(6)">6</button>
+      <button onclick="calc('-')">-</button>
+      <button onclick="calc(1)">1</button>
+      <button onclick="calc(2)">2</button>
+      <button onclick="calc(3)">3</button>
+      <button onclick="calc('+')">+</button>
+      <button onclick="calc(0)">0</button>
+      <button onclick="calc()">.</button>
+      <button  class="equal-sign" onclick="result()">=</button>
 
-    </div>
+    </div>   <!--END OF .CALCULATOR -->
+  </div> <!--END OF .CONTAINER -->
 
-  </div>
+  <script src="script.js"></script>
+
 </body>
 </html>
