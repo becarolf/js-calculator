@@ -39,16 +39,37 @@ input {
 }
 
 button {
+  background: #505050;
   border-radius: 50%;
   border: none;
+  color: white;
   height: 50px;
   margin: 10px;
   width: 50px;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
+}
+button:active {
+  background: #d4d4d2;
 }
 
-.equal-sign {
+.first {
+  background: #d4d4d2;
+  color: #1c1c1c;
+}
+.first:active {
+  background: #505050;
+  color: white;
+}
+
+.symbol {
+  background: #ff9500;
+}
+.symbol:active {
+  background: white;
+  color: #ff9500;
+}
+
+#equal-sign {
   width: 120px;
   border-radius: 42px;
 }
